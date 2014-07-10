@@ -19,7 +19,8 @@ The integration is divided in two parts: frontend App and backend.
 The frontend is an iPhone App. The project includes a full example of use, with social login buttons and a fake 
 registration process with the REST API backend server, but if you want to integrate it into your own project, you 
 just need to copy the class "OAuthRESTManager" into your project. Then, you would call `getTwitterAccountsWithListener:` 
-for Twitter accounts and `getFacebookAccountsWithListener:` for Facebook accounts. 
+for Twitter accounts or `getFacebookAccountsWithListener:` for Facebook accounts, depending on the social login button 
+that's been selected. 
 
 ```
 [[OAUthRESTManager sharedInstance] getTwitterAccountsWithListener];
