@@ -125,3 +125,39 @@ The backend will respond to the /register request with three possible codes: USE
 
 # Use
 
+The App is very simple to use once everything is set up. You just need to set the backend and make sure you can communicate with it. You can test it easily by opening a terminal on OS X and typing “curl -k -X POST https://localhost:8080/testSocialLogin/v1/register”, and hitting Enter. It should return a JSON informing of an error in registration due to missing parameters.
+
+```
+{"error":true,"message":"Required field(s) access_type, passkey, passcode missing or empty"}
+```
+
+Don’t forget to set the Consumer Key and Secret in Config.php. If the backend is ready, you just have to set the same Consumer Key and Secret, along with the Facebook App ID at the top of OAuthRESTManager.m, and you are ready to run. The interface will look similar to this:
+
+[](http://digitalleaves.com/blog/wp-content/uploads/2014/07/SocialLoginForiOS.jpg)
+
+
+# License
+
+This software is licensed under the MIT license. You can use it in your personal or commercial projects without 
+permission, but if you find it useful, I would love to hear from you.
+
+Copyright (c) 2014 Ignacio Nieto Carvajal
+http://digitalleaves.com
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
