@@ -132,7 +132,6 @@ The App is very simple to use once everything is set up. You just need to set th
 ```
 
 Don’t forget to set the Consumer Key and Secret in Config.php. If the backend is ready, you just have to set the same Consumer Key and Secret, along with the Facebook App ID at the top of OAuthRESTManager.m, and you are ready to run. The interface will look similar to this:
-
 [](http://digitalleaves.com/blog/wp-content/uploads/2014/07/SocialLoginForiOS.jpg)
 
 
