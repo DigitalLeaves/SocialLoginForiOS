@@ -12,7 +12,7 @@ explaining the implementation of the platform.
 
 # Integration
 
-The integration is divided in two parts: foreground and backend.
+The integration is divided in two parts: frontend App and backend.
 
 ## Foreground
 
