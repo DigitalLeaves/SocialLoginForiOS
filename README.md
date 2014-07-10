@@ -14,9 +14,9 @@ explaining the implementation of the platform.
 
 The integration is divided in two parts: frontend App and backend.
 
-## Foreground
+## Frontend
 
-The foreground is an iPhone App. The project includes a full example of use, with social login buttons and a fake 
+The frontend is an iPhone App. The project includes a full example of use, with social login buttons and a fake 
 registration process with the REST API backend server, but if you want to integrate it into your own project, you 
 just need to copy the class "OAuthRESTManager" into your project. Then, you would call `getTwitterAccountsWithListener:` 
 for Twitter accounts and `getFacebookAccountsWithListener:` for Facebook accounts. 
