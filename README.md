@@ -5,6 +5,8 @@ SocialLoginForiOS is a Social Login platform for iOS with frontend and testing b
 Login OAuth authentication in your own RESTful API. I decided to implement this class because I couldn't find a good
 resource for learning about the implementation of a real authentication scheme using social login via OAuth.
 
+![SocialLoginForiOS](http://digitalleaves.com/blog/wp-content/uploads/2014/07/SocialLoginForiOS.jpg)
+
 There is a [extensive blog post](http://digitalleaves.com/blog/2014/07/building-your-own-rest-api-with-oauth-2-0-iii-hands-on/) 
 explaining the implementation of the platform.
 
